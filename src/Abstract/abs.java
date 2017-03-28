@@ -6,7 +6,7 @@ abstract class abs1{
 	abstract void disp1();
 }
 public class abs extends abs1{
-
+//overriding
 	void disp1(){
 		System.out.println("overriding abstract method");
 	}
@@ -15,6 +15,7 @@ public class abs extends abs1{
 abs a=new abs();
 a.disp();
 a.disp1();
+
 	}
 
 }
